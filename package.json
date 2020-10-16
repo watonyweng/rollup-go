@@ -1,0 +1,31 @@
+{
+  "name": "rollup-go",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "rollup"
+  ],
+  "description": "An Rollup Go Step by Step",
+  "author": "Watony Weng <softweitao@126.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watonyweng/rollup-go.git"
+  },
+  "bugs": {
+    "url": "https://github.com/watonyweng/rollup-go/issues"
+  },
+  "homepage": "https://github.com/watonyweng/rollup-go#readme",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint --fix packages/**/**/*.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "prettier": "^2.1.2"
+  }
+}

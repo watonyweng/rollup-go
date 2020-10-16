@@ -1,0 +1,18 @@
+{
+  "name": "creating-your-first-bundle",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "rollup"
+  ],
+  "description": "An Rollup Go Step by Step",
+  "author": "Watony Weng <softweitao@126.com>",
+  "license": "MIT",
+  "main": "package.json",
+  "scripts": {
+    "bundle": "rollup src/main.js -f cjs"
+  },
+  "devDependencies": {
+    "rollup": "^2.31.0"
+  }
+}
