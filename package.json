@@ -17,15 +17,19 @@
   "homepage": "https://github.com/watonyweng/rollup-go#readme",
   "license": "MIT",
   "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
     "lint": "eslint --fix packages/**/**/*.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.11.0",
-    "eslint-config-prettier": "^6.13.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "lerna": "^3.22.1",
     "lerna-changelog": "^1.0.1",
-    "prettier": "^2.1.2"
+    "prettier": "^2.3.1",
+    "vitepress": "^0.14.0"
   }
 }

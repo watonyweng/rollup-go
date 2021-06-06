@@ -13,6 +13,6 @@
     "bundle": "rollup src/main.js -f cjs"
   },
   "devDependencies": {
-    "rollup": "^2.31.0"
+    "rollup": "^2.50.6"
   }
 }
